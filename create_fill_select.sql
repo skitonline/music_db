@@ -216,6 +216,8 @@ SELECT name, year FROM album
 SELECT name, duration FROM music
 	ORDER BY duration DESC
 	LIMIT 1;
+SELECT name FROM music
+	WHERE duration >= 210
 SELECT name FROM collection
 	WHERE year BETWEEN 2018 AND 2020;
 SELECT name FROM musician 
